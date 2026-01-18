@@ -9,7 +9,7 @@ export function StartScreen({ onStart }: StartScreenProps) {
       <div 
         className="absolute inset-0 opacity-[0.15]"
         style={{
-          backgroundImage: `radial-gradient(circle, #e5e5e5 1px, transparent 1px)`,
+          backgroundImage: `radial-gradient(circle, var(--color-mono-border) 1px, transparent 1px)`,
           backgroundSize: '24px 24px',
         }}
       />
