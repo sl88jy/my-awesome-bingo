@@ -10,8 +10,8 @@ export function StartScreen({ onStart }: StartScreenProps) {
         {/* Hero Section */}
         <header className="space-y-6">
           <div className="space-y-3">
-            <h1 className="text-7xl font-light text-mono-text tracking-tight leading-none">
-              Break the ice.<br />Build connections.
+            <h1 className="text-7xl font-light text-mono-text tracking-tight leading-[0.95]">
+              Break the ice. Build connections.
             </h1>
             <p className="text-lg text-mono-text-muted tracking-tight">
               The social bingo game that turns awkward small talk into genuine conversations.
@@ -46,8 +46,8 @@ export function StartScreen({ onStart }: StartScreenProps) {
                 <h3 className="text-xl font-medium text-mono-text tracking-tight">
                   Perfect for any gathering
                 </h3>
-                <p className="text-mono-text-muted leading-relaxed">
-                  Team offsites • Conference icebreakers • Networking events • First week at the office
+                <p className="text-mono-text-muted leading-relaxed" aria-label="Use cases: Team offsites, Conference icebreakers, Networking events, First week at the office">
+                  Team offsites <span aria-hidden="true">•</span> Conference icebreakers <span aria-hidden="true">•</span> Networking events <span aria-hidden="true">•</span> First week at the office
                 </p>
               </div>
             </div>
@@ -93,8 +93,8 @@ export function StartScreen({ onStart }: StartScreenProps) {
           >
             Start Playing
           </button>
-          <p className="text-center text-sm text-mono-text-muted">
-            Takes 15–20 minutes • Works on any device • No signup required
+          <p className="text-center text-sm text-mono-text-muted" aria-label="Game duration: Takes 15 to 20 minutes, Works on any device, No signup required">
+            Takes 15–20 minutes <span aria-hidden="true">•</span> Works on any device <span aria-hidden="true">•</span> No signup required
           </p>
         </section>
 
